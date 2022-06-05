@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+    background:black;
+}
+.container{
+    display: flex;
+    height: 100%;
+}
+.left{
+    width: 50%;
+    background-color:rgb(43, 46, 56);
+}
+.right{
+    width: 50%;
+    background-color: white;
+}
+.text{
+    position: relative;
+    top: 285px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clock{
+    text-align: center;
+    height: 340px;
+    width: 270px;
+    top: 25%;
+    left: 35%;
+    background: black;
+    border-radius: 15%;
+    border-top: 25px solid grey;
+    border-bottom: 25px solid grey;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.clock h4{
+    text-align: center;
+    margin-top: 15px;
+}
+.centertime{
+    text-align: center;
+    position: absolute;
+    top: 16%;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+.centertime h1{
+    font-size: 5rem;
+    margin-left: 17%
+}
+.centertime h5{
+    margin-left: 17%
+}
+.image{
+    position: absolute;
+    top: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12%;
+
+}
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+.far,.fas{
+    color: white;
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+#msg-text{
+  font-size: 2rem;
+  position: relative;
+  color: black;
+}
